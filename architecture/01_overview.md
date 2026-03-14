@@ -18,3 +18,7 @@ Private family:
 - omd-mac-osx-app
 - omd-android-app
 - omd-ios-app
+
+Current implementation focus:
+- `v2.0.1` platform spine across Core, Shell, Wizard, Plugin Index, and Themes
+- product repo alignment still follows after the shared contracts

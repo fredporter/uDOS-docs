@@ -40,6 +40,7 @@ Useful entry docs:
 - `docs/vision.md`
 - `docs/requests-and-submissions.md`
 - `docs/modes-and-boundaries.md`
+- `architecture/10_v2_0_1_platform_spine.md`
 - `architecture/07_family_learning_path.md`
 
 ## Family Relation

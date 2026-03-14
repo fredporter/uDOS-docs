@@ -38,7 +38,10 @@ Use this path if you want the architecture and course ladder.
 Use this path if you want to work with real contracts and examples.
 
 - `uDOS-core` for canonical semantics
+- `uDOS-shell` for operator-facing routing and preview surfaces
 - `uDOS-wizard` for API, MCP, Beacon, and provider-side helpers
+- `uDOS-plugin-index` for plugin trust and compatibility metadata
+- `uDOS-themes` for shell and publishing token bridges
 - `uHOME-empire` for webhook, sync, CRM, and mapping contracts
 - `uHOME-server` for local runtime contracts and client-facing surfaces
 
@@ -52,6 +55,7 @@ at once.
 ## Next Docs
 
 - `docs/getting-started.md`
+- `architecture/10_v2_0_1_platform_spine.md`
 - `architecture/07_family_learning_path.md`
 - `docs/binders-and-publishing.md`
 - `architecture/08_seed_and_template_policy.md`
