@@ -17,6 +17,8 @@ ownership beyond:
 
 - `architecture/`, `wizard/`, `alpine/`, and `uhome/` as the family topic lanes
 - `docs/` as the repo entrypoint and governance lane
+- `architecture/07_family_learning_path.md` as the family ladder and pathway
+  reference
 - `scripts/run-docs-checks.sh` as the repo validation entrypoint
 - `tests/` as the documentation validation lane
 - `examples/basic-docs-update.md` as the smallest author workflow

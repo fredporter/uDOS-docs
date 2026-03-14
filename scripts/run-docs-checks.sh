@@ -22,11 +22,13 @@ require_markdown_in_dir() {
 cd "$REPO_ROOT"
 
 require_file "$REPO_ROOT/README.md"
+require_file "$REPO_ROOT/CHANGELOG.md"
 require_file "$REPO_ROOT/docs/architecture.md"
 require_file "$REPO_ROOT/docs/boundary.md"
 require_file "$REPO_ROOT/docs/getting-started.md"
 require_file "$REPO_ROOT/docs/examples.md"
 require_file "$REPO_ROOT/docs/activation.md"
+require_file "$REPO_ROOT/docs/release-policy.md"
 require_file "$REPO_ROOT/scripts/README.md"
 require_file "$REPO_ROOT/tests/README.md"
 require_file "$REPO_ROOT/config/README.md"

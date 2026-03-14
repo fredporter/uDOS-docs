@@ -6,7 +6,7 @@ Public family:
 - uDOS-plugin-index
 - uDOS-wizard
 - uDOS-gameplay
-- uDOS-empire
+- uHOME-empire
 - uDOS-dev
 - uDOS-themes
 - uDOS-docs

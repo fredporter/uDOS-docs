@@ -32,6 +32,16 @@ Canonical public documentation repo for the uDOS v2 and uHOME family.
 
 Prefer plain-language, source-first documentation that teaches the system.
 
+Useful entry docs:
+
+- `docs/onboarding.md`
+- `docs/getting-started.md`
+- `docs/binders-and-publishing.md`
+- `docs/vision.md`
+- `docs/requests-and-submissions.md`
+- `docs/modes-and-boundaries.md`
+- `architecture/07_family_learning_path.md`
+
 ## Family Relation
 
 This repo explains the family but should not become the owner of implementation details that belong elsewhere.
