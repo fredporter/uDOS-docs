@@ -26,6 +26,7 @@ Canonical public documentation repo for the uDOS v2 and uHOME family.
 - `tests/`
 - `scripts/`
 - `config/`
+- `examples/`
 
 ## Local Development
 
@@ -34,3 +35,13 @@ Prefer plain-language, source-first documentation that teaches the system.
 ## Family Relation
 
 This repo explains the family but should not become the owner of implementation details that belong elsewhere.
+
+## Activation
+
+The v2 repo activation path is documented in `docs/activation.md`.
+
+Run the current repo validation entrypoint with:
+
+```bash
+scripts/run-docs-checks.sh
+```
