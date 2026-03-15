@@ -16,8 +16,8 @@ Public family:
 
 Private family:
 - omd-mac-osx-app
-- omd-android-app
-- omd-ios-app
+- uHOME-app-android
+- uHOME-app-ios
 
 Current implementation focus:
 - `v2.0.1` platform spine across Core, Shell, Wizard, Plugin Index, and Themes
