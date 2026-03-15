@@ -43,6 +43,11 @@ working shared orchestration surfaces for:
 These Wizard routes are the first cross-product remote workflow bridge in the
 rebuilt repo family.
 
+The next boundary refinement is now explicit:
+
+- Wizard owns workflow authority and browser operator GUI surfaces
+- `uHOME-server` owns always-on execution and Thin GUI or kiosk surfaces
+
 ## Rebuilt Product Lanes
 
 ### `uHOME-client`

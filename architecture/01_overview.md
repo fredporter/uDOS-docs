@@ -21,4 +21,6 @@ Private family:
 
 Current implementation focus:
 - `v2.0.1` platform spine across Core, Shell, Wizard, Plugin Index, and Themes
-- product repo alignment still follows after the shared contracts
+- product repo alignment now includes:
+  - `uDOS-wizard` as browser workflow and operator GUI owner
+  - `uHOME-server` as always-on runtime, automation, and Thin GUI owner

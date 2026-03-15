@@ -43,6 +43,7 @@ Use:
 
 - `uDOS-docs` for family explanations
 - `uDOS-core` for canonical markdown-first contracts
+- `uDOS-themes` for prose presets, theme adapters, and publishing style packs
 
 ### Local-First Development
 
@@ -86,6 +87,8 @@ Use:
 - `uDOS-docs` = family-level explanations, pathway framing, archive assessment, and onboarding language
 - `uDOS-core` = canonical contracts and semantics
 - `uDOS-wizard` = provider, networking, Beacon Activate, and API/control-plane concepts
+- `uDOS-themes` = theme packs, prose presets, gameplay skin adapters, and
+  shared visual vocabulary
 - `uHOME-server` = local-network runtime, household services, and Beacon Activate content surfaces
 - `uHOME-empire` = webhook server patterns, online sync, HubSpot/Google integration, and CRM operations
 - `uDOS-sonic-screwdriver` = deployment and portable provisioning

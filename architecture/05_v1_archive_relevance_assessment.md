@@ -32,7 +32,9 @@ Retain:
 Adapt for v2:
 
 - `uHOME-empire` is now a sibling repo, not a Wizard-activated internal module
-- Apple-native sync, web publishing, and email stay in `omd-mac-osx-app`
+- Apple-native sync stays in `omd-mac-osx-app`
+- shared web publishing and email render contracts should live in the public
+  render/theme pipeline and be consumed by app and repo surfaces
 - `uDOS-wizard` owns online networking and provider bridge contracts
 - `uHOME-empire` owns Google or HubSpot sync jobs, webhook receivers, and API templates
 
@@ -72,7 +74,8 @@ Retain:
 
 Adapt for v2:
 
-- web publishing and email pathways now sit with the macOS app
+- web publishing and email render contracts should be shared public contracts
+  rather than Wizard-only or app-only logic
 - `uHOME-empire` may trigger remote sync or CRM side-effects from reviewed artifacts
 - public docs should describe render ownership by family repo, not by legacy Wizard or Empire internals
 
@@ -152,13 +155,14 @@ Keep these archived as references unless a current repo explicitly needs them:
 
 - `uHOME-empire` owns always-on webhook and API sync scaffolds
 - `uHOME-server` course material now distinguishes local automation from online webhook automation
-- macOS docs keep Apple-native sync plus web/email ownership
+- macOS docs keep Apple-native sync while consuming shared public web/email
+  render contracts
 
 ### Next useful promotions
 
 1. promote a normalized contact and CRM vocabulary into `uDOS-core` or `uHOME-empire` public contracts
 2. rewrite legacy Empire operator runbooks as `uHOME-empire` runbooks
-3. rewrite only the publish-renderer concepts still needed by the macOS app
+3. promote publish-renderer concepts into shared public render and theme contracts
 4. extract Beacon Activate wording from archive into active `uHOME-server` and
    family docs
 

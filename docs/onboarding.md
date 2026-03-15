@@ -21,9 +21,11 @@ of the experience.
 
 Use this path if you want to run current products.
 
-- `uHOME-server` for local-network runtime and nearby content surfaces
-- `uDOS-wizard` for network/provider-facing control surfaces
-- `omd-mac-osx-app` for Apple-native sync, web publishing, and email
+- `uHOME-server` for always-on local runtime, automation fulfillment, and Thin
+  GUI or nearby content surfaces
+- `uDOS-wizard` for network/provider-facing workflow and browser control
+  surfaces
+- Apple-native apps for selective local user-touch advancement and private sync
 
 ## Learn
 
@@ -39,11 +41,13 @@ Use this path if you want to work with real contracts and examples.
 
 - `uDOS-core` for canonical semantics
 - `uDOS-shell` for operator-facing routing and preview surfaces
-- `uDOS-wizard` for API, MCP, Beacon, and provider-side helpers
+- `uDOS-wizard` for workflow authority, API, MCP, Beacon, and provider-side
+  helpers
 - `uDOS-plugin-index` for plugin trust and compatibility metadata
 - `uDOS-themes` for shell and publishing token bridges
 - `uHOME-empire` for webhook, sync, CRM, and mapping contracts
-- `uHOME-server` for local runtime contracts and client-facing surfaces
+- `uHOME-server` for local runtime contracts, automation fulfillment, and Thin
+  GUI surfaces
 
 ## First Practical Rule
 

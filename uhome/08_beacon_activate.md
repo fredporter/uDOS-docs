@@ -38,4 +38,5 @@ Beacon Activate is not:
 - Wizard = Beacon offering, networking-side handoff, tunnel policy
 - `uHOME-server` = local content, TV/tablet-safe reading surfaces
 - `uHOME-empire` = remote APIs, webhooks, and online sync
-- macOS app = Apple-native sync, web publishing, and email
+- macOS app = Apple-native sync plus consumption of shared render outputs where
+  needed

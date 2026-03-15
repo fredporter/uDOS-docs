@@ -28,6 +28,7 @@ For example, an `md -> html` IO renderer may serve both:
 
 - the Wizard web publishing contract
 - the Beacon Activate local portal library contract
+- app-side publishing or preview consumers that use the same shared artifact
 
 The function can be shared even when the runtime surface differs.
 
