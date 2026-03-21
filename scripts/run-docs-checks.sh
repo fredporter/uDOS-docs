@@ -40,14 +40,26 @@ require_markdown_in_dir "$REPO_ROOT/wizard"
 require_markdown_in_dir "$REPO_ROOT/alpine"
 require_markdown_in_dir "$REPO_ROOT/uhome"
 
-if rg -n '/Users/fredbook/Code|~/Users/fredbook/Code' \
-  "$REPO_ROOT/README.md" \
-  "$REPO_ROOT/docs" \
-  "$REPO_ROOT/tests" \
-  "$REPO_ROOT/examples" \
-  "$REPO_ROOT/config"; then
-  echo "private local-root reference found in uDOS-docs" >&2
-  exit 1
+if command -v rg >/dev/null 2>&1; then
+  if rg -n '/Users/fredbook/Code|~/Users/fredbook/Code' \
+    "$REPO_ROOT/README.md" \
+    "$REPO_ROOT/docs" \
+    "$REPO_ROOT/tests" \
+    "$REPO_ROOT/examples" \
+    "$REPO_ROOT/config"; then
+    echo "private local-root reference found in uDOS-docs" >&2
+    exit 1
+  fi
+else
+  if grep -R -nE '/Users/fredbook/Code|~/Users/fredbook/Code' \
+    "$REPO_ROOT/README.md" \
+    "$REPO_ROOT/docs" \
+    "$REPO_ROOT/tests" \
+    "$REPO_ROOT/examples" \
+    "$REPO_ROOT/config" >/dev/null 2>&1; then
+    echo "private local-root reference found in uDOS-docs" >&2
+    exit 1
+  fi
 fi
 
 echo "uDOS-docs checks passed"
