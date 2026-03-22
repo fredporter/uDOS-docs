@@ -79,10 +79,15 @@ Primary repos:
 - `uDOS-themes`
 - `uDOS-core`
 
-## Deliverables To Write Next
+## Current Deliverables
 
-- family explainer page
-- repo-local quickstarts for render contracts and theme packs
-- Wizard GUI preview lesson
-- Beacon library lesson
-- gameplay skin adapter lesson
+- family explainer page: this course plan plus the render/theme pipeline doc
+- repo-local quickstarts: owned by the sibling repos listed above
+- Wizard GUI preview lesson: covered through Wizard preview and MCP/browser docs
+- gameplay skin adapter lesson: framed here as the `SKIN` and `LENS` ownership rule
+
+## Next Documentation Increments
+
+- expand the Beacon library handoff lesson with concrete runtime examples
+- add a repo-crosswalk showing one artifact rendered through multiple targets
+- add a worked teaching session that connects Core compile, Themes mapping, Wizard preview, and gameplay skin overlay in one exercise

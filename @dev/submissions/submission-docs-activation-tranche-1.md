@@ -1,0 +1,24 @@
+# Submission: `#binder/docs-activation` tranche 1
+
+- binder: `#binder/docs-activation`
+- owning repo: `uDOS-docs`
+- branch: `develop`
+- summary:
+  - added the first uDOS-docs activation doc
+  - added a repo-level validation entrypoint for required docs surfaces and local-root leakage checks
+  - added a basic author walkthrough and activated the repo entry surfaces
+- validation run:
+  - `uDOS-docs/scripts/run-docs-checks.sh`
+- policy checks:
+  - activation stays inside documentation ownership
+  - activation does not claim runtime or provider implementation ownership
+- promotable outputs:
+  - `uDOS-docs/docs/activation.md`
+  - `uDOS-docs/scripts/run-docs-checks.sh`
+  - `uDOS-docs/examples/basic-docs-update.md`
+  - `uDOS-docs/tests/README.md`
+- risks:
+  - docs validation is structural and path-focused for now, not a full prose or link checker
+- next promotion step:
+  - commit and push `uDOS-docs` and `uDOS-dev`
+  - advance the roadmap ledger toward the next activation target
